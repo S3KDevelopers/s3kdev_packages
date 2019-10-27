@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S3KDevelopers/s3kdev_packages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/S3KDevelopers/s3kdev_packages/issues"
+  },
+  "homepage": "https://github.com/S3KDevelopers/s3kdev_packages#readme",
   "keywords": [],
   "author": "S3K Developers",
   "license": "ISC",
