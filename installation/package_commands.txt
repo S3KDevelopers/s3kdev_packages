@@ -1,0 +1,12 @@
+To submit a package
+-------------------
+Go to the package folder:
+
+npm login  --registry=https://npm.pkg.github.com/
+
+npm publish
+
+=====================================
+
+Text-to-speech
+https://github.com/SSaratKS/s3kdev_packages/packages/44321
