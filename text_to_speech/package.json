@@ -1,0 +1,15 @@
+{
+  "name": "@s3kdevelopers/text-to-speech",
+  "version": "1.0.0",
+  "description": "This is a text to speech package for implemented from Espeak",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "S3K Developers",
+  "license": "ISC",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
+}

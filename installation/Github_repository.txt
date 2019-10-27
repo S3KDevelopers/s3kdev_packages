@@ -1,0 +1,26 @@
+GITHUB COMMIT CHANGES
+----------------------
+
+git init
+git remote add origin https://github.com/S3KDevelopers/s3kdev_packages.git
+git remote set-url origin https://github.com/S3KDevelopers/s3kdev_packages.git
+git pull origin master
+
+=====================================
+
+git add .
+git commit -m "minor update"
+git push origin master
+
+git remote -v
+git remote rm origin
+
+git status
+
+//To view all the commits
+git reflogs
+git revert <Commit_Number>
+
+git rm -r --cached .
+
+=====================================
