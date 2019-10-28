@@ -1,6 +1,6 @@
 {
   "name": "@s3kdevelopers/framework7-scripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This contains scripts of framework7 for version 5.1.0",
   "main": "index.js",
   "scripts": {
