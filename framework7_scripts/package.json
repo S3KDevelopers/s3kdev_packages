@@ -19,13 +19,13 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "react": "^0.14.9",
+    "react": "^0.14.9"
   },
   "devDependencies": {
     "css-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
     "script-loader": "^0.7.0",
-    "style-loader": "^0.23.1",
+    "style-loader": "^0.23.1"
   },
   "publishConfig": {
     "registry":"https://npm.pkg.github.com/"
