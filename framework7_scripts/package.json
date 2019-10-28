@@ -1,0 +1,33 @@
+{
+  "name": "@s3kdevelopers/framework7-scripts",
+  "version": "1.0.0",
+  "description": "This contains scripts of framework7 for version 5.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S3KDevelopers/s3kdev_packages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/S3KDevelopers/s3kdev_packages/issues"
+  },
+  "homepage": "https://github.com/S3KDevelopers/s3kdev_packages#readme",
+  "keywords": [],
+  "author": "S3K Developers",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^0.14.9",
+  },
+  "devDependencies": {
+    "css-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "script-loader": "^0.7.0",
+    "style-loader": "^0.23.1",
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
+}
