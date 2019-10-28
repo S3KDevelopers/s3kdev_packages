@@ -2,12 +2,16 @@
 <title>speak.js: Text-to-Speech on the Web</title>
 <head>
   <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/responsivevoice.css">  
   <script>
     // This demo is licensed under the GNU GPL.
   </script>
   <script src="js/speak_client.js"></script>
+  <script src="js/responsivevoice.js"></script>
 </head>
 <body>
+  <input onclick="responsiveVoice.speak(&quot;hello, world. This message converts the image to text. Thank you&quot;, &quot;UK English Female&quot;, {rate: 1.0});" type="button" value="🔊 Play">
+
   <h1>speak.js</h1>
   <h2>Text-To-Speech on the Web</h2>
   <form onsubmit="convertToWAV(text.value, { amplitude: amplitude.value, wordgap: workdgap.value, pitch: pitch.value, speed: speed.value, voice: voice.value }); return false">
@@ -63,7 +67,7 @@
         ret += BASE[(leftchar&0xf) << 2];
         ret += PAD;
       }
-      
+
       return ret;
     }
     function download(filename, content) {
@@ -97,4 +101,3 @@
   </script>
 </body>
 </html>
-
