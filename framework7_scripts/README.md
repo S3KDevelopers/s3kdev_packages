@@ -23,7 +23,7 @@ const myPackage = require('@s3kdevelopers/framework7-scripts');
 myPackage.helloWorld();
 ```
 
-# For React JS
+## For React JS
 
 Load the scripts in webpack
 ```
