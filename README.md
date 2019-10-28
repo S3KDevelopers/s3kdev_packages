@@ -4,7 +4,9 @@ This contains a collection of development packages.
 
 ## Installation
 
-`npm install @s3kdevelopers/text-to-speech@1.0.1`
+```
+npm install @s3kdevelopers/text-to-speech@1.0.1
+```
 
 Or add this package to your `package.json` file:
 
