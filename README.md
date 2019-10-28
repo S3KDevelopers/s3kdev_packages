@@ -5,14 +5,14 @@ This contains a collection of development packages.
 ## Installation
 
 ```
-npm install @s3kdevelopers/text-to-speech@1.0.1
+npm install @s3kdevelopers/text-to-speech@1.0.2
 ```
 
 Or add this package to your `package.json` file:
 
 ```
 "dependencies": {
-    "@s3kdevelopers/text-to-speech": "1.0.1"
+    "@s3kdevelopers/text-to-speech": "1.0.2"
   }
 ```
 
