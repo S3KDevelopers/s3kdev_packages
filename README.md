@@ -2,7 +2,7 @@
 
 This contains a collection of development packages.
 
-## Installation of Packages
+## Installation
 
 `npm install @s3kdevelopers/text-to-speech@1.0.1`
 
