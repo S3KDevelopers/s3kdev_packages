@@ -1,0 +1,40 @@
+//An HTTP server with livereload included.
+npm install -g lr-http-server
+
+//Http Server
+npm i -g http-serve --save
+
+Step 1
+ Go to Framework 7 folder
+
+ Step 2
+  Type "http-serve -a localhost -p 8100 -c-1" to host the server
+
+ Starting up http-serve for ./
+ Available on:
+   http://localhost:8100
+ Hit CTRL-C to stop the server
+
+Step 3
+ open localhost:8100 to view the demo
+
+ ==================================
+ FireBase:
+ ---------
+
+ npm install firebase --save
+ npm install -g firebase-import
+ npm install -g firebase-tools
+
+ firebase login
+ firebase init
+
+ cordova build browser
+ firebase deploy
+
+ ==================================
+
+ npm i framework7-cli cordova -g
+ framework7 create --ui
+
+ ==================================
