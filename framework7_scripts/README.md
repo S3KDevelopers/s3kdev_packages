@@ -14,7 +14,7 @@ Step 2:
 Configure `package.json` to use the package.
 ```
 "dependencies": {
-    "@s3kdevelopers/framework7-scripts": "1.0.2"
+    "@s3kdevelopers/framework7-scripts": "1.0.3"
   }
 ```
 
@@ -38,7 +38,7 @@ Load the scripts in webpack
 alias: {
   framework7Core: '@s3kdevelopers/framework7-scripts/packages/js/core/framework7.bundle.min.js',
 
-  framework7React: '@s3kdevelopers/framework7-scripts/packages/js/react/framework7-react.bundle.js',
+  framework7React: '@s3kdevelopers/framework7-scripts/packages/js/react/framework7-react.bundle.min.js',
 
   applicationStyles: 'app/styles/app.scss'
 },
