@@ -4,16 +4,24 @@ This contains scripts of framework7 for version 5.1.0
 
 ## Installation
 
+Step 1:
+We recommend creating a local `.npmrc` in the project that points to GitHub Package Registry.
 ```
-npm install @s3kdevelopers/framework7-scripts@1.0.1
+registry=https://npm.pkg.github.com/s3kdevelopers
 ```
 
-Or add this package to your `package.json` file:
-
+Step 2:
+Configure `package.json` to use the package.
 ```
 "dependencies": {
     "@s3kdevelopers/framework7-scripts": "1.0.1"
   }
+```
+
+Step 3:
+Execute command,
+```
+npm install
 ```
 
 ## Usage
@@ -45,3 +53,7 @@ Load the files in app.jsx
 ```
 require('style-loader!css-loader!sass-loader!applicationStyles');
 ```
+
+### Support or Contact
+
+Having trouble with the packages? [Contact support](mailto:support@s3kdevelopers.com) and we’ll help you sort it out.
