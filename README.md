@@ -33,10 +33,9 @@ myPackage.helloWorld();
 
 ## Packages
 
-1. [Text-to-speech]
-(https://github.com/S3KDevelopers/s3kdev_packages/packages/44321)
+1. [Text-to-speech](https://github.com/S3KDevelopers/s3kdev_packages/packages/44321)
 
-2. [Framework7-scripts] (https://github.com/S3KDevelopers/s3kdev_packages/packages/44619)
+2. [Framework7-scripts](https://github.com/S3KDevelopers/s3kdev_packages/packages/44619)
 
 ### Support or Contact
 
