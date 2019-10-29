@@ -14,7 +14,7 @@ Step 2:
 Configure `package.json` to use the package.
 ```
 "dependencies": {
-    "@s3kdevelopers/framework7-scripts": "1.0.1"
+    "@s3kdevelopers/framework7-scripts": "1.0.2"
   }
 ```
 
