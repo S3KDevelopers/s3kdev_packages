@@ -35,10 +35,6 @@ myPackage.helloWorld();
 
 Load the scripts in webpack
 ```
-entry: [
-  'script-loader!packages/js/react/framework7-react.bundle.js',
-
-],
 alias: {
   framework7Core: '@s3kdevelopers/framework7-scripts/packages/js/core/framework7.bundle.min.js',
 
