@@ -4,16 +4,24 @@ This contains a collection of development packages.
 
 ## Installation
 
+Step 1:
+We recommend creating a local `.npmrc` in the project that points to GitHub Package Registry.
 ```
-npm install @s3kdevelopers/text-to-speech@1.0.2
+registry=https://npm.pkg.github.com/s3kdevelopers
 ```
 
-Or add this package to your `package.json` file:
-
+Step 2:
+Configure `package.json` to use the package.
 ```
 "dependencies": {
     "@s3kdevelopers/text-to-speech": "1.0.2"
   }
+```
+
+Step 3:
+Execute command,
+```
+npm install
 ```
 
 ## Usage
