@@ -3,7 +3,7 @@
 This is a demo for Framework7 application
 
 ### Step 1
- Go to Framework 7 folder
+ Go to `public` folder
 
 ### Step 2
   Type `http-serve -a localhost -p 8100 -c-1` to host the server.
