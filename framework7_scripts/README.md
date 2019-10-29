@@ -40,18 +40,29 @@ entry: [
 
 ],
 alias: {
+  framework7Core: '@s3kdevelopers/framework7-scripts/packages/js/core/framework7.bundle.min.js',
+
+  framework7React: '@s3kdevelopers/framework7-scripts/packages/js/react/framework7-react.bundle.js',
+
   applicationStyles: 'app/styles/app.scss'
-},,
+},
 ```
 
 import the CSS file in app.scss
 ```
-@import 'packages/css/framework7.bundle';
+@import '@s3kdevelopers/framework7-scripts/packages/css/framework7.bundle';
 ```
 
 Load the files in app.jsx
 ```
-require('style-loader!css-loader!sass-loader!applicationStyles');
+import Framework7 from 'script-loader!framework7Core';
+
+import Framework7React from 'script-loader!framework7React';
+(or)
+import Framework7React from 'framework7-react';
+
+// Init F7-React Plugin
+Framework7.use(Framework7React);
 ```
 
 ### Support or Contact
