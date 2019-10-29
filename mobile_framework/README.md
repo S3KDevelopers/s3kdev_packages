@@ -1,6 +1,6 @@
-## Mobile Framework Demo
+## Mobile Web Framework
 
-This is a demo for Framework7 application framework
+This is a demo for Framework7 application
 
 ### Step 1
  Go to Framework 7 folder
